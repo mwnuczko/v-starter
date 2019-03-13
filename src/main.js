@@ -1,15 +1,18 @@
-import Vue from 'vue'
-import './plugins/vuetify'
-import App from './App.vue'
-import router from './router'
-import store from './store'
-import 'roboto-fontface/css/roboto/roboto-fontface.css'
-import '@mdi/font/css/materialdesignicons.css'
+import Vue from 'vue';
 
-Vue.config.productionTip = false
+import './plugins/vuetify';
+import './plugins/vuex-router-sync';
+
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import 'roboto-fontface/css/roboto/roboto-fontface.css';
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
+
+Vue.config.productionTip = false;
 
 new Vue({
   router,
   store,
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#app');
