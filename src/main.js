@@ -1,6 +1,7 @@
 import Vue from 'vue';
 
 import './plugins/vuetify';
+import './plugins/vuelidate';
 import './plugins/vuex-router-sync';
 
 import App from './App.vue';
