@@ -6,7 +6,7 @@
   >
     <v-flex xs12>
       <h3>Home</h3>
-      <router-link to="linkUrl">Home</router-link>
+      <router-link :to="linkUrl">Home</router-link>
     </v-flex>
   </v-layout>
 </v-container>
