@@ -5,14 +5,18 @@
       <span>v-starter</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-btn href="/">
-      <span class="mr-2">Home</span>
-      <v-icon>home</v-icon>
-    </v-btn>
-    <v-btn href="/about">
-      <span class="mr-2">About</span>
-      <v-icon>info</v-icon>
-    </v-btn>
+    <router-link to="/">
+      <v-btn>
+        <span class="mr-2">Home</span>
+        <v-icon>home</v-icon>
+      </v-btn>
+    </router-link>
+    <router-link to="/about">
+      <v-btn>
+        <span class="mr-2">About</span>
+        <v-icon>info</v-icon>
+      </v-btn>
+    </router-link>
   </v-toolbar>
 
   <v-content>
